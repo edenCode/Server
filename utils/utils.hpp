@@ -13,6 +13,6 @@
 
 class utils{
     public:
-       int getSystemVersion();
-       int getFilelist(char * path,list_t &list);
+     static  int getSystemVersion();
+     static  int getFilelist(char * path,list_t &list);
 };
